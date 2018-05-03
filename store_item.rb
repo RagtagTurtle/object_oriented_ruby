@@ -4,7 +4,7 @@
 # item_2 = {:name => "Apple", :price => 1, color: "red"}
 # item_3 = {:name => "Nutrigrain bar", :price => 2, color: "green"}
 
-class My_Store
+class MyStore
   attr_reader :item_name, :item_price, :item_color
   attr_writer :item_color
 
@@ -40,19 +40,19 @@ end
 # item_2 = My_Store.new("Apple", 1, "red")
 # item_3 = My_Store.new("Nutrigrain", 2, "green")
 
-item_1 = My_Store.new(
+item_1 = MyStore.new(
   item_name: "Water Bottle",
   item_price: 25,
   item_color: "blue"
 )
 
-item_2 = My_Store.new(
+item_2 = MyStore.new(
   item_name: "Apple",
   item_price: 1,
   item_color: "red"
   )
 
-item_3 = My_Store.new(
+item_3 = MyStore.new(
   item_name: "Nutrigrain",
   item_price: 2,
   item_color: "green"
